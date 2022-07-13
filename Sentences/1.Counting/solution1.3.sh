@@ -6,10 +6,10 @@
 
 #Variaables con la fecha en el formato indicado
 
-FECHA = `date +%Y.%m.%d-%H.%M.%S`
+FECHA=`date +%Y.%m.%d-%H.%M.%S`
 
 # Variable con la ruta de los ficheros
-RUTA_FICHEROS= ~/copia_seguridad
+RUTA_FICHEROS=~/Escritorio
 
 #variable con el fichero con la fecha de la ultima copia total
 FICHERO_ULTIMA_COPIA_TOTAL=$RUTA_FICHEROS/fecha-ultima-copia-total.txt
@@ -19,8 +19,7 @@ FICHERO_ULTIMA_COPIA_TOTAL=$RUTA_FICHEROS/fecha-ultima-copia-total.txt
 FICHERO_COMPRIMIDO=$RUTA_FICHEROS/total-$FECHA.tar.zip
 
 #Variable con el directorio que queremos copiar y comprimir 
-DIRECTORIO_A_COPIAR=~/DIRECTORIO_A_COPIAR
-
+DIRECTORIO_A_COPIAR=~/Descargas/filecopy
 #################################
 # FIN VARIABLES
 #################################

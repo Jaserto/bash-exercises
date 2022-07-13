@@ -6,4 +6,3 @@
 3. Realizar un script llamado 'copia-total' que empaquete y comprima el contenido de la carpeta '~/carpeta_a_copiar en un fichero llamado
 'total-aaaa-mm-dd-HH-MM.SS.tar.zip en la carpeta '~/copa seguridad
 
-S
