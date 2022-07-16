@@ -13,11 +13,11 @@ DESCRPCION_AYUDA
 }
 function comprobarQueNoEsNumero() {
 if [ -n "$1" \
--a "$1" != "0" \
--a "`echo $1 | awk '{ print $1*1 }'`" != "$1" ]; then
-echo "El parámetro '$1' no es un número"
-ayuda
-exit 2
+    -a "$1" != "0" \
+    -a "`echo $1 | awk '{ print $1*1 }'`" != "$1" ]; then
+    echo "El parámetro '$1' no es un número"
+    ayuda
+    exit 2
 fi
 }
 if [ $# -ne 2 ]; then
