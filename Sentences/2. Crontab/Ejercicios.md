@@ -1,0 +1,1 @@
+1. Modificar el fichero 'microntab' para que imprima la fecha en el fichero '~/&ultimo-crontab.txt' cada minuto, y ejecutarlo con crontab.
